@@ -1,4 +1,3 @@
-import './App.css';
 
 function App() {
   return (
@@ -7,7 +6,10 @@ function App() {
      <h1>
       Hello World
       </h1>
-    </div>
+      <button className="border rounded-full bg-green-500">
+        submit
+      </button>
+        </div>
     </>
   );
 }
